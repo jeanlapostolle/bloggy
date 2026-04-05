@@ -36,7 +36,7 @@ DEFAULT_PAGINATION = 5
 
 
 THEME = "themes/melcore-sobre"
-STATIC_PATHS = ['images']
+STATIC_PATHS = ['images', 'extra']
 STATIC_EXCLUDES = []
 STATIC_CREATE_LINKS = True
 READERS = {'html': None}
