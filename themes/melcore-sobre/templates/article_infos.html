@@ -1,0 +1,13 @@
+<footer class="post-info">
+        <abbr class="published" title="{{ article.date.isoformat() }}">
+                Publié: {{ article.locale_date }}
+        </abbr>
+        {% if article.modified %}
+                <br />
+                <abbr class="modified" title="{{ article.modified.isoformat() }}">
+                        Updated: {{ article.locale_modified }}
+                </abbr>
+        {% endif %}
+
+        {% include 'taglist.html' %}
+</footer>
