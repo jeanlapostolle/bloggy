@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Le monde de Melcore</title>
+        <link rel="stylesheet" href="https://www.melcore.fr/theme/css/reset.css" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://www.melcore.fr/theme/css/code-monokai.css" type="text/css">
+        <link rel="stylesheet" href="https://www.melcore.fr/theme/css/style.css" type="text/css">
+        <meta charset="UTF-8">
+
+
+    </head>
+    <body>
+
+        <main class="main">
+        <aside class="sidebar">
+            <a href="https://www.melcore.fr/"><img src="https://www.melcore.fr/theme/media/melcore-logo_symbole_light.svg" alt="Logo comme un épluchure d'agrume en forme de M"></a>
+            <section class="presentation"><p>Salut, moi c'est <b>Melcore</b>, je suis dev, humoriste et créatif.<br>
+            Parfois, j'ai du temps pour faire des trucs alors je voulais juste le raconter quelque part, sur mon petit bout d'internet.</p><br>
+            </section>
+            <section class="social">
+                <a href="https://instagram.com/melcore_hat" target="_blank" rel="noopener noreferrer"><img src="https://cdn.simpleicons.org/instagram" class="icon" alt="Instagram" width="24" height="24">Instagram</a>
+                <a href="https://tiktok.com/@melcore" target="_blank" rel="noopener noreferrer"><img src="https://cdn.simpleicons.org/tiktok" class="icon" alt="Tiktok" width="24" height="24">Tiktok</a>
+                <a href="https://github.com/jeanlapostolle" target="_blank" rel="noopener noreferrer"><img src="https://cdn.simpleicons.org/github" class="icon" alt="GitHub" width="24" height="24">Github</a>
+            </section>
+        </aside>
+  <section id="content" class="body">
+    <article class="main-article">
+      <header>
+        <h1 class="entry-title">Présentation de certaines fonctions built-in et itertools</h1>
+      </header>
+
+      <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2024-01-23T19:28:00+01:00">
+                Publié: Tue 23 January 2024
+        </abbr>
+
+<p>tags: <a href="https://www.melcore.fr/tag/python.html">python</a> <a href="https://www.melcore.fr/tag/zeste-de-savoir.html">Zeste de Savoir</a> </p></footer>        <p>Dans ce billet, nous verrons :</p>
+<p><strong>Built-in</strong>
+- any()
+- all()
+- enumerate()
+- isinstance()
+- map()
+- next() (generateur)
+- sorted()
+- staticmethod()
+- zip()</p>
+<p><strong>Itertools</strong>
+- count()
+- cycle()
+- repeat()
+- pairwise()
+- filterfalse()
+- product()
+- permutations()
+- combinations()</p>
+<h2>Built-in</h2>
+<p>Les fonctions built-in sont des fonctions intégrées de base à python, on y retrouve les fonctions de python classiques comme <code>int</code>, <code>float</code>, <code>list</code>, <code>dict</code>, <code>tuple</code>, <code>len</code>,<code>max</code>, <code>min</code>.
+Ces fonctions sont directement intégrées à python et n'ont donc besoin d'aucun import pour les utiliser.</p>
+<h3>any()</h3>
+<p><code>any</code> prend en argument un iterable et retourne un booléen, elle retourne vrai si au moins une des valeurs de l'itérable est vrai.</p>
+<div class="highlight"><pre><span></span><code><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="nb">any</span><span class="p">((</span><span class="kc">False</span><span class="p">,</span><span class="w"> </span><span class="kc">False</span><span class="p">,</span><span class="w"> </span><span class="kc">True</span><span class="p">,</span><span class="w"> </span><span class="kc">False</span><span class="p">))</span><span class="w"> </span><span class="si">= }</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="nb">any</span><span class="p">((</span><span class="kc">False</span><span class="p">,</span><span class="w"> </span><span class="kc">False</span><span class="p">,</span><span class="w"> </span><span class="kc">False</span><span class="p">,</span><span class="w"> </span><span class="kc">False</span><span class="p">))</span><span class="w"> </span><span class="si">= }</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="nb">any</span><span class="p">((</span><span class="kc">True</span><span class="p">,</span><span class="w"> </span><span class="kc">True</span><span class="p">,</span><span class="w"> </span><span class="kc">True</span><span class="p">,</span><span class="w"> </span><span class="kc">True</span><span class="p">))</span><span class="w"> </span><span class="si">= }</span><span class="s2">&quot;</span><span class="p">)</span>
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code>any((False, False, True, False))=True
+any((False, False, False, False)) = False
+any((True, True, True, True)) = True
+</code></pre></div>
+
+<h3>all()</h3>
+<p>La fonction <code>all</code> prend en argument, elle aussi, un iterable et retourne un booléen, mais elle retourne vraie si toutes les valeurs de l'itérable sont vraies.</p>
+<div class="highlight"><pre><span></span><code><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="nb">all</span><span class="p">((</span><span class="kc">False</span><span class="p">,</span><span class="w"> </span><span class="kc">False</span><span class="p">,</span><span class="w"> </span><span class="kc">True</span><span class="p">,</span><span class="w"> </span><span class="kc">False</span><span class="p">))</span><span class="w"> </span><span class="si">= }</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="nb">all</span><span class="p">((</span><span class="kc">False</span><span class="p">,</span><span class="w"> </span><span class="kc">False</span><span class="p">,</span><span class="w"> </span><span class="kc">False</span><span class="p">,</span><span class="w"> </span><span class="kc">False</span><span class="p">))</span><span class="w"> </span><span class="si">= }</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="nb">all</span><span class="p">((</span><span class="kc">True</span><span class="p">,</span><span class="w"> </span><span class="kc">True</span><span class="p">,</span><span class="w"> </span><span class="kc">True</span><span class="p">,</span><span class="w"> </span><span class="kc">True</span><span class="p">))</span><span class="w"> </span><span class="si">= }</span><span class="s2">&quot;</span><span class="p">)</span>
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code>all((False, False, True, False)) = False
+all((False, False, False, False)) = False
+all((True, True, True, True)) = True
+</code></pre></div>
+
+<p>Les fonctions <code>any</code> et <code>all</code> sont très pratiques dans les tests.</p>
+<blockquote>
+<p>Mais attention à leurs négations, <code>not any</code> retourne vraie si toutes les valeurs de l'itérable en entrés sont fausses alors qu'on aurait pu faussement penser que ce rôle revenait à <code>not all</code>.</p>
+</blockquote>
+<p>En python, un itérable est un objet qui sur lequel on peut itérer. C'ést à dire qu'u  élément à un élément qui le suit, excepté le dernier. Par exemple, une liste est un iterable. Mais aussi, un tuple, une string, un dictionnaire sont des itérables.
+On peut aussi générer des itérables à la volée (à la demande), on appelle ça un générateur.</p>
+<p>Un générateur utilise le mot clé yield afin de permettre de "mettre en pause" celui-ci et retourne une valeur. Ce mécanisme garde l'état de la fonction au moment du yield et ceci jusqu'à la prochaine demande d'élement au générateur où elle reprendra à la suite du yield.</p>
+<p>Exemple d'un générateur avec le suite de fibonacci, tiré du <a href="https://zestedesavoir.com/tutoriels/954/notions-de-python-avancees/3-further/1-generators/#1-1-generator">tutoriel sur les notions avancées de python</a> par @entwanne</p>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">fibo</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">a</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+        <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="n">b</span><span class="p">,</span> <span class="n">a</span><span class="o">+</span><span class="n">b</span>
+        <span class="k">yield</span> <span class="n">a</span>
+
+<span class="n">fib</span> <span class="o">=</span> <span class="n">fibo</span><span class="p">(</span><span class="mi">8</span><span class="p">)</span>
+<span class="n">fib</span>
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code>&lt;generator object fibo at 0x7f7a1ece56c0&gt;
+</code></pre></div>
+
+<blockquote>
+<p>Ce qui nous est renvoyé est un objet de type <code>generator</code>.</p>
+</blockquote>
+<p>Pour demandés de générer les éléments du génrateur, le mieux est encore d'essayer de la transformer en liste.</p>
+<div class="highlight"><pre><span></span><code><span class="nb">list</span><span class="p">(</span><span class="n">fib</span><span class="p">)</span>
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code>[1, 1, 2, 3, 5, 8, 13, 21]
+</code></pre></div>
+
+<h3>next()</h3>
+<p>La fonction <code>next</code> permet de générer l'élément suivant du générateur.</p>
+<div class="highlight"><pre><span></span><code><span class="n">fib</span> <span class="o">=</span> <span class="n">fibo</span><span class="p">(</span><span class="mi">8</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">next</span><span class="p">(</span><span class="n">fib</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">next</span><span class="p">(</span><span class="n">fib</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">next</span><span class="p">(</span><span class="n">fib</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">next</span><span class="p">(</span><span class="n">fib</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">next</span><span class="p">(</span><span class="n">fib</span><span class="p">))</span>
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code><span class="mf">1</span>
+<span class="mf">1</span>
+<span class="mf">2</span>
+<span class="mf">3</span>
+<span class="mf">5</span>
+</code></pre></div>
+
+<h3>enumerate()</h3>
+<p><code>enumerate</code> est probablement la fonction que je vous présente ici que j'utilise le plus souvent. Elle permet, comme son nom l'indique, d'énumérer un itérable. C'est très pratique quand on a besoin de connaître la valeur et l'index d'un élément dans une boucle.</p>
+<div class="highlight"><pre><span></span><code><span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="mi">7</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">9</span><span class="p">,</span><span class="mi">13</span><span class="p">,</span><span class="mi">14</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">7</span><span class="p">]</span>
+<span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">start</span><span class="o">=</span><span class="mi">5</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">i</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">value</span> <span class="o">=</span> <span class="n">value</span> <span class="o">**</span><span class="mi">2</span>
+
+<span class="nb">list</span><span class="p">(</span><span class="nb">enumerate</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">start</span><span class="o">=</span><span class="mi">5</span><span class="p">))</span>
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code>[(5, 7), (6, 5), (7, 6), (8, 9), (9, 13), (10, 14), (11, 5), (12, 7)]
+</code></pre></div>
+
+<p><code>enumerate</code> prend aussi un argument start pour faire commencer l'énumération à partir de n'importe quel entier, de base il est à 0, ce qui permet de suivre l'index.</p>
+<h3>isinstance()</h3>
+<p><code>isinstance</code> Permet de vérifier qu'un objet est une instance d'une classe. Contrairement à <code>type</code> qui fait la même chose, <code>isinstance</code> permet aussi de regarder si le type est une instance indirect.</p>
+<div class="highlight"><pre><span></span><code><span class="nb">print</span><span class="p">(</span> <span class="nb">isinstance</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="nb">int</span><span class="p">)</span> <span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span> <span class="nb">type</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span> <span class="o">==</span> <span class="nb">int</span> <span class="p">)</span>
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code>True
+True
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code><span class="k">class</span> <span class="nc">my_int</span><span class="p">(</span><span class="nb">int</span><span class="p">):</span>
+    <span class="k">pass</span>
+
+<span class="n">x</span> <span class="o">=</span> <span class="n">my_int</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="nb">int</span><span class="p">)</span> <span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span> <span class="nb">type</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">==</span> <span class="nb">int</span> <span class="p">)</span>
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code>True
+False
+</code></pre></div>
+
+<h3>map()</h3>
+<p><code>map</code> permet d'appliquer une fonction à un itérable. Attention cependant cette fonction retourne un itérateur et non une liste. Il faut donc la transformer en liste avant de pouvoir l'afficher.</p>
+<div class="highlight"><pre><span></span><code><span class="nb">print</span><span class="p">(</span> <span class="nb">list</span><span class="p">(</span> <span class="nb">map</span><span class="p">(</span><span class="nb">len</span><span class="p">,</span> <span class="p">[</span><span class="s2">&quot;banane&quot;</span><span class="p">,</span> <span class="s2">&quot;abricot&quot;</span><span class="p">,</span> <span class="s2">&quot;orange&quot;</span><span class="p">])</span> <span class="p">)</span> <span class="p">)</span>
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code>[6, 7, 6]
+</code></pre></div>
+
+<h3>sorted()</h3>
+<p><code>sorted</code> permet de trier un itérable. Il permet d'utiliser l'ordre décroissant et de donner un fonction clé. On peut ainsi ne pas trier les éléments dans l'ordre des entiers croissants mais dans l'ordre inverse par valeurs absolus de leur deuxième élément par exemple.</p>
+<div class="highlight"><pre><span></span><code><span class="n">liste</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;Beta&quot;</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span> <span class="s2">&quot;Alpha&quot;</span><span class="p">:</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="s2">&quot;Gamma&quot;</span><span class="p">:</span> <span class="o">-</span><span class="mi">7</span><span class="p">}</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="nb">sorted</span><span class="p">(</span><span class="n">liste</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="nb">abs</span><span class="p">(</span><span class="n">liste</span><span class="p">[</span><span class="n">x</span><span class="p">]),</span> <span class="n">reverse</span><span class="o">=</span><span class="kc">True</span><span class="p">))</span>
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code>[&#39;Gamma&#39;, &#39;Beta&#39;, &#39;Alpha&#39;]
+</code></pre></div>
+
+<h3>@staticmethod</h3>
+<p>@staticmetod est un décorateur permettant de rendre une méthode statique. C'est une méthode qui permet d'être utilisé sans instance de la classe.</p>
+<div class="highlight"><pre><span></span><code><span class="k">class</span> <span class="nc">Model</span><span class="p">:</span>
+
+    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">modelnames</span><span class="p">():</span>
+        <span class="k">return</span> <span class="p">[</span><span class="s2">&quot;Mistral&quot;</span><span class="p">,</span> <span class="s2">&quot;chatGPT&quot;</span><span class="p">,</span> <span class="s1">&#39;Llama&#39;</span><span class="p">]</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">Model</span><span class="o">.</span><span class="n">modelnames</span><span class="p">())</span>
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code>[&#39;Mistral&#39;, &#39;chatGPT&#39;, &#39;Llama&#39;]
+</code></pre></div>
+
+<h3>zip()</h3>
+<p><code>zip</code> permet d'associer n à n les valeurs de n listes. C'est très utile quand on doit itérer sur deux ou plusieurs listes en même temps.</p>
+<div class="highlight"><pre><span></span><code><span class="n">viandes</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Poulet&quot;</span><span class="p">,</span> <span class="s2">&quot;Boeuf&quot;</span><span class="p">,</span> <span class="s2">&quot;Porc&quot;</span><span class="p">]</span>
+<span class="n">legumes</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Haricot&quot;</span><span class="p">,</span> <span class="s2">&quot;Chou fleur&quot;</span><span class="p">,</span> <span class="s2">&quot;Tomates&quot;</span><span class="p">]</span>
+
+<span class="k">for</span> <span class="n">viande</span><span class="p">,</span> <span class="n">legume</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">viandes</span><span class="p">,</span> <span class="n">legumes</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">legume</span><span class="p">,</span> <span class="n">viande</span><span class="p">)</span>
+
+<span class="nb">list</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="n">viandes</span><span class="p">,</span> <span class="n">legumes</span><span class="p">))</span>
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code>Haricot Poulet
+Chou fleur Boeuf
+Tomates Porc
+
+
+
+
+
+[(&#39;Poulet&#39;, &#39;Haricot&#39;), (&#39;Boeuf&#39;, &#39;Chou fleur&#39;), (&#39;Porc&#39;, &#39;Tomates&#39;)]
+</code></pre></div>
+
+<blockquote>
+<p>Il faut que les listes soit de la même taille, dans le cas contraire, on pourra utiliser <code>zip_longest</code> de module <code>itertools</code></p>
+</blockquote>
+<h2>itertools</h2>
+<p>Itertools est un module qui permet de faciliter la gestion d'itérable. Ce module appartenant à poython est installé en m^me tempsque python , donc pas besoin d'installation supplémentaire. Il faut toutefois l'importer pour pouvoir l'utiliser.</p>
+<h3>count()</h3>
+<p><code>count</code> est un compteur qui ne s'arrète jamais. Il permet de créer un compteur avec un pas défini qui n'est pas forcément entier.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">count</span>
+
+<span class="n">x</span> <span class="o">=</span> <span class="n">count</span><span class="p">(</span><span class="mf">5.3</span><span class="p">,</span> <span class="n">step</span><span class="o">=</span><span class="mf">0.6</span><span class="p">)</span>
+<span class="p">[</span><span class="nb">next</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">)]</span>
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code>[5.3,
+ 5.8999999999999995,
+ 6.499999999999999,
+ 7.099999999999999,
+ 7.699999999999998]
+</code></pre></div>
+
+<h3>cycle()</h3>
+<p><code>cycle</code> permet de boucler sur un itérable.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">cycle</span>
+
+<span class="n">cy</span> <span class="o">=</span> <span class="n">cycle</span><span class="p">(</span><span class="s2">&quot;RVB&quot;</span><span class="p">)</span>
+<span class="p">[</span><span class="nb">next</span><span class="p">(</span><span class="n">cy</span><span class="p">)</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)]</span>
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code>[&#39;R&#39;, &#39;V&#39;, &#39;B&#39;, &#39;R&#39;, &#39;V&#39;, &#39;B&#39;, &#39;R&#39;, &#39;V&#39;, &#39;B&#39;, &#39;R&#39;]
+</code></pre></div>
+
+<h3>pairwise()</h3>
+<p><code>pairwise</code> permet de lier deux par deux les éléments d'un itérable. </p>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">pairwise</span>
+
+<span class="n">values</span> <span class="o">=</span> <span class="p">[</span><span class="mi">7</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">14</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">9</span><span class="p">]</span>
+
+<span class="k">for</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="ow">in</span> <span class="n">pairwise</span><span class="p">(</span><span class="n">values</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">y</span> <span class="o">-</span> <span class="n">x</span><span class="p">)</span>
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code>-4
+5
+-2
+8
+-8
+3
+</code></pre></div>
+
+<h3>filterfalse()</h3>
+<p><code>filterfalse</code> permet de ne renvoyer que les valeurs fausses d'une fonction.</p>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">est_bissextile</span><span class="p">(</span><span class="n">annee</span><span class="p">):</span>
+    <span class="k">return</span> <span class="p">(</span><span class="n">annee</span> <span class="o">%</span> <span class="mi">4</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">annee</span> <span class="o">%</span> <span class="mi">100</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">annee</span> <span class="o">%</span> <span class="mi">400</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span>
+
+<span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">filterfalse</span>
+
+<span class="n">fi</span> <span class="o">=</span> <span class="n">filterfalse</span><span class="p">(</span><span class="n">est_bissextile</span><span class="p">,</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1900</span><span class="p">,</span> <span class="mi">2030</span><span class="p">))</span>
+
+<span class="p">[</span><span class="nb">next</span><span class="p">(</span><span class="n">fi</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)]</span>
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code>[1900, 1901, 1902, 1903, 1905, 1906, 1907, 1909, 1910, 1911]
+</code></pre></div>
+
+<h3>product()</h3>
+<p><code>product</code> fait le produit cartésien d'itérable. Ainsi il associe chaque élément à chaque combinaison des autres éléments.</p>
+<p>Il peut prendre plusieurs itérables en entrées et peut permettre de les utiliser plusieurs fois avec l'argument <code>repeat</code></p>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">product</span>
+
+<span class="n">prod</span> <span class="o">=</span> <span class="n">product</span><span class="p">(</span><span class="s2">&quot;ABC&quot;</span><span class="p">,</span> <span class="s2">&quot;xyz&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">([</span><span class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">prod</span><span class="p">])</span>
+
+<span class="n">pr</span> <span class="o">=</span> <span class="n">product</span><span class="p">(</span><span class="s2">&quot;01&quot;</span><span class="p">,</span> <span class="n">repeat</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+<span class="p">[</span><span class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">pr</span><span class="p">]</span>
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code><span class="k">[(&#39;A&#39;, &#39;x&#39;), (&#39;A&#39;, &#39;y&#39;), (&#39;A&#39;, &#39;z&#39;), (&#39;B&#39;, &#39;x&#39;), (&#39;B&#39;, &#39;y&#39;), (&#39;B&#39;, &#39;z&#39;), (&#39;C&#39;, &#39;x&#39;), (&#39;C&#39;, &#39;y&#39;), (&#39;C&#39;, &#39;z&#39;)]</span>
+
+<span class="na">[(&#39;0&#39;, &#39;0&#39;, &#39;0&#39;),</span>
+<span class="w"> </span><span class="na">(&#39;0&#39;, &#39;0&#39;, &#39;1&#39;),</span>
+<span class="w"> </span><span class="na">(&#39;0&#39;, &#39;1&#39;, &#39;0&#39;),</span>
+<span class="w"> </span><span class="na">(&#39;0&#39;, &#39;1&#39;, &#39;1&#39;),</span>
+<span class="w"> </span><span class="na">(&#39;1&#39;, &#39;0&#39;, &#39;0&#39;),</span>
+<span class="w"> </span><span class="na">(&#39;1&#39;, &#39;0&#39;, &#39;1&#39;),</span>
+<span class="w"> </span><span class="na">(&#39;1&#39;, &#39;1&#39;, &#39;0&#39;),</span>
+<span class="w"> </span><span class="na">(&#39;1&#39;, &#39;1&#39;, &#39;1&#39;)]</span>
+</code></pre></div>
+
+<h3>permutation()</h3>
+<p><code>permutation</code> permet de générer les permutations d'un itérable, on peut spécifier la longueur de la permutation avec l'argument <code>r</code></p>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">permutations</span>
+
+<span class="n">lettres</span> <span class="o">=</span> <span class="s2">&quot;GARE&quot;</span>
+<span class="n">pe</span> <span class="o">=</span> <span class="n">permutations</span><span class="p">(</span><span class="n">lettres</span><span class="p">)</span>
+<span class="p">[</span><span class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">pe</span><span class="p">]</span>
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code>[(&#39;G&#39;, &#39;A&#39;, &#39;R&#39;, &#39;E&#39;),
+ (&#39;G&#39;, &#39;A&#39;, &#39;E&#39;, &#39;R&#39;),
+ (&#39;G&#39;, &#39;R&#39;, &#39;A&#39;, &#39;E&#39;),
+ (&#39;G&#39;, &#39;R&#39;, &#39;E&#39;, &#39;A&#39;),
+ (&#39;G&#39;, &#39;E&#39;, &#39;A&#39;, &#39;R&#39;),
+ (&#39;G&#39;, &#39;E&#39;, &#39;R&#39;, &#39;A&#39;),
+ (&#39;A&#39;, &#39;G&#39;, &#39;R&#39;, &#39;E&#39;),
+ (&#39;A&#39;, &#39;G&#39;, &#39;E&#39;, &#39;R&#39;),
+ (&#39;A&#39;, &#39;R&#39;, &#39;G&#39;, &#39;E&#39;),
+ (&#39;A&#39;, &#39;R&#39;, &#39;E&#39;, &#39;G&#39;),
+ (&#39;A&#39;, &#39;E&#39;, &#39;G&#39;, &#39;R&#39;),
+ (&#39;A&#39;, &#39;E&#39;, &#39;R&#39;, &#39;G&#39;),
+ (&#39;R&#39;, &#39;G&#39;, &#39;A&#39;, &#39;E&#39;),
+ (&#39;R&#39;, &#39;G&#39;, &#39;E&#39;, &#39;A&#39;),
+ (&#39;R&#39;, &#39;A&#39;, &#39;G&#39;, &#39;E&#39;),
+ (&#39;R&#39;, &#39;A&#39;, &#39;E&#39;, &#39;G&#39;),
+ (&#39;R&#39;, &#39;E&#39;, &#39;G&#39;, &#39;A&#39;),
+ (&#39;R&#39;, &#39;E&#39;, &#39;A&#39;, &#39;G&#39;),
+ (&#39;E&#39;, &#39;G&#39;, &#39;A&#39;, &#39;R&#39;),
+ (&#39;E&#39;, &#39;G&#39;, &#39;R&#39;, &#39;A&#39;),
+ (&#39;E&#39;, &#39;A&#39;, &#39;G&#39;, &#39;R&#39;),
+ (&#39;E&#39;, &#39;A&#39;, &#39;R&#39;, &#39;G&#39;),
+ (&#39;E&#39;, &#39;R&#39;, &#39;G&#39;, &#39;A&#39;),
+ (&#39;E&#39;, &#39;R&#39;, &#39;A&#39;, &#39;G&#39;)]
+</code></pre></div>
+
+<h3>combinations()</h3>
+<p><code>combinations</code> est comme permutation sans l'importance de l'ordre, c'est-à-dire que 'BA' est une solution identique à 'AB'</p>
+<p>Et voilà ! J’espère que cette rétrospective des fonctionnalités que j’utilise le plus souvent pourra vous être utile pour améliorer votre python.</p>
+      </div>
+
+    </article>
+  </section>
+        </main>
+    </body>
+</html>

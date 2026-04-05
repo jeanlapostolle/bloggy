@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Le monde de Melcore</title><link href="https://www.melcore.fr/" rel="alternate"/><link href="https://www.melcore.fr/feeds/all.atom.xml" rel="self"/><id>https://www.melcore.fr/</id><updated>2026-04-04T17:20:00+02:00</updated><entry><title>BD : L'autoremplacement par IA</title><link href="https://www.melcore.fr/bd-lautoremplacement-par-ia.html" rel="alternate"/><published>2026-04-04T17:20:00+02:00</published><updated>2026-04-04T17:20:00+02:00</updated><author><name>Melcore</name></author><id>tag:www.melcore.fr,2026-04-04:/bd-lautoremplacement-par-ia.html</id><summary type="html">&lt;p&gt;En mars, j'ai eu l'occasion de prendre des cours de Bande Dessinée à l'école des Gobelins. Je suis parti sur un strip en 6 cases humoristiques dénonçant une dérive de l'Intelligence Artificielle&lt;/p&gt;</summary><content type="html">&lt;p&gt;En mars, j'ai eu l'occasion de prendre des cours de Bande Dessinée à l'école des Gobelins. Je suis parti sur un strip en 6 cases humoristiques dénonçant une dérive de l'Intelligence Artificielle.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Image de la BD" src="images/bd/ia-bd.jpeg"&gt;&lt;/p&gt;</content><category term="BD"/><category term="bd"/><category term="IA"/></entry><entry><title>Geodata - Manipuler la donnée géographique en Python avec GeoPandas</title><link href="https://www.melcore.fr/geodata-manipuler-la-donnee-geographique-en-python-avec-geopandas.html" rel="alternate"/><published>2026-01-29T21:00:00+01:00</published><updated>2026-01-29T21:00:00+01:00</updated><author><name>Melcore</name></author><id>tag:www.melcore.fr,2026-01-29:/geodata-manipuler-la-donnee-geographique-en-python-avec-geopandas.html</id><summary type="html">&lt;p&gt;Au fond je crois que la Terre est ronde, pour une seule bonne raison, après avoir fait le tour du monde, tout ce qu'on veut c'est faire du Python" - Les projections géographiques, Particularités de GeoPandas, Les données de l'IGN&lt;/p&gt;</summary><content type="html">&lt;video width="640" height="480" controls&gt;
+  &lt;source src="https://dl.afpy.org/meetup-python-paris/2026-01/geodata_manipuler_la_donnee_geographique_avec_geopandas_jean_lapostolle.mp4" type="video/mp4"&gt;
+&lt;/video&gt;</content><category term="Review"/><category term="python"/><category term="geodata"/></entry><entry><title>Feux de forêts</title><link href="https://www.melcore.fr/feux-de-forets.html" rel="alternate"/><published>2025-08-08T17:20:00+02:00</published><updated>2025-08-08T17:20:00+02:00</updated><author><name>Melcore</name></author><id>tag:www.melcore.fr,2025-08-08:/feux-de-forets.html</id><summary type="html">&lt;p&gt;En mars, j'ai eu l'occasion de prendre des cours de Bande Dessinée à l'école des Gobelins. Je suis parti sur un strip en 6 cases humoristiques dénonçant une dérive de l'Intelligence Artificielle&lt;/p&gt;</summary><content type="html">&lt;p&gt;Le premier ministre François Bayrou annonce : « L&amp;#39;évènement aujourd&amp;#39;hui, c&amp;#39;est un évènement qui est lié au réchauffement climatique et lié à la sécheresse », en parlant du feu de forêt qui a eu lieu dans l&amp;#39;Aude ce 6 août 2025.&lt;/p&gt;
+&lt;p&gt;Mais, bien qu&amp;#39;il serait absurde de ne pas considéré l&amp;#39;impact du réchauffement climatique dans de nombreux aspects de la société, il apparait sain de se questionner de son impact sur les feux de forêts. Ainsi l&amp;#39;observatoire de données a pris la décision de rechercher dans les données des feux de forêts afin de prendre en compte l&amp;#39;impact au fil des années.&lt;/p&gt;
+&lt;p&gt;Et pour cela, on peut remercier l&amp;#39;institut national de l&amp;#39;information géographique et forestière (IGN) de nous mettre à disposition une base de données sur les incendies de forêt (BDIFF), récolté chaque année depuis 2006, sur toute la France, auprès de nombreux acteurs de l&amp;#39;État.&lt;/p&gt;
+&lt;object data="images/feu-de-forets/taille.html" width="800" height="400"&gt;&lt;/object&gt;
+
+&lt;p&gt;L&amp;#39;évolution des départs de feu de forêt qui ont lieu de manière naturelle (c&amp;#39;est à dire qu&amp;#39;on sait qu&amp;#39;il ne sont pas effectué involontairement, par accident ou par malveillance), montre une légère augmentation des petits feux de forêts. Est-ce là l&amp;#39;indication de la bonne surveillance par les autorités qui évitent l&amp;#39;embrassement d&amp;#39;un petit en grand feu de forêt ?&lt;/p&gt;
+&lt;p&gt;De plus on remarque que l&amp;#39;année 2022 fut une grosse année de feu, et qu&amp;#39;on se souvient encore des méga-feux en Gironde.&lt;/p&gt;
+&lt;object data="images/feu-de-forets/mois.html" width="800" height="600"&gt;&lt;/object&gt;
+
+&lt;p&gt;Une donnée dont on entends souvent parler quand on s&amp;#39;intéresse au feu de forêt est l&amp;#39;étalement de la période des feux de forêts. La heatmap si dessus montre bien que les feux de forêts s&amp;#39;étalent désormais de mars à septembre. Des données plus vielles nous donneraient peut-être des informations sur un étalement plus estival.&lt;/p&gt;
+&lt;object data="images/feu-de-forets/departements.html" width="800" height="600"&gt;&lt;/object&gt;
+
+&lt;p&gt;Une cartographie annuelle des départements touchés par les feux de forêts de causes naturelles montre une chose importante, qui est un effet directe du réchauffement climatique, la montée nordique des feux, qui n&amp;#39;était alors que très peu touchés, mais qui maintenant se retrouve en compétition des départements les plus touchés, comme la Bretagne en 2022.&lt;/p&gt;
+&lt;p&gt;On peut voir l&amp;#39;impact du réchauffement climatique sur les feux de forêt avec principalement un étalement sur toute la France, un étalement de Mars à Septembre, mais pas une augmentation de l&amp;#39;intensité des feux, malgré une augmentation de leur nombre.&lt;/p&gt;
+&lt;p&gt;On peut en conclure que le premier ministre n&amp;#39;a pas l&amp;#39;air de se tromper en mettant en cause le réchauffement climatique ici. De plus la situation semble s&amp;#39;empirer au fil des années.&lt;/p&gt;</content><category term="Study"/><category term="feu"/><category term="python"/><category term="actualite"/></entry><entry><title>Pythonade – Humour en Python</title><link href="https://www.melcore.fr/pythonade-humour-en-python.html" rel="alternate"/><published>2024-11-02T13:00:00+01:00</published><updated>2024-11-02T13:00:00+01:00</updated><author><name>Melcore</name></author><id>tag:www.melcore.fr,2024-11-02:/pythonade-humour-en-python.html</id><summary type="html">&lt;p&gt;Blague de dev, croissantage, XKCD… l’humour a toujours été au cœur de la communauté des développeurs. Cette petite session de vanne sur Python est la prémisse de ce qui me fera monter sur scène.&lt;/p&gt;</summary><content type="html">&lt;video width="640" height="480" controls&gt;
+  &lt;source src="https://dl.afpy.org/pycon-fr-24/pythonade_humour_en_python.mp4" type="video/mp4"&gt;
+&lt;/video&gt;</content><category term="Review"/><category term="python"/><category term="humour"/></entry><entry><title>Présentation de certaines fonctions built-in et itertools</title><link href="https://www.melcore.fr/presentation-de-certaines-fonctions-built-in-et-itertools.html" rel="alternate"/><published>2024-01-23T19:28:00+01:00</published><updated>2024-01-23T19:28:00+01:00</updated><author><name>Melcore</name></author><id>tag:www.melcore.fr,2024-01-23:/presentation-de-certaines-fonctions-built-in-et-itertools.html</id><summary type="html">&lt;p&gt;Je vous présente les éléments que j'utilise les plus régulièrement quand je développe en python.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Dans ce billet, nous verrons :&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Built-in&lt;/strong&gt;
+- any()
+- all()
+- enumerate()
+- isinstance()
+- map()
+- next() (generateur)
+- sorted()
+- staticmethod()
+- zip()&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Itertools&lt;/strong&gt;
+- count()
+- cycle()
+- repeat()
+- pairwise()
+- filterfalse()
+- product()
+- permutations()
+- combinations()&lt;/p&gt;
+&lt;h2&gt;Built-in&lt;/h2&gt;
+&lt;p&gt;Les fonctions built-in sont des fonctions intégrées de base à python, on y retrouve les fonctions de python classiques comme &lt;code&gt;int&lt;/code&gt;, &lt;code&gt;float&lt;/code&gt;, &lt;code&gt;list&lt;/code&gt;, &lt;code&gt;dict&lt;/code&gt;, &lt;code&gt;tuple&lt;/code&gt;, &lt;code&gt;len&lt;/code&gt;,&lt;code&gt;max&lt;/code&gt;, &lt;code&gt;min&lt;/code&gt;.
+Ces fonctions sont directement intégrées à python et n'ont donc besoin d'aucun import pour les utiliser.&lt;/p&gt;
+&lt;h3&gt;any()&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;any&lt;/code&gt; prend en argument un iterable et retourne un booléen, elle retourne vrai si au moins une des valeurs de l'itérable est vrai.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="nb"&gt;any&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="si"&gt;= }&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="nb"&gt;any&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="si"&gt;= }&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="nb"&gt;any&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="si"&gt;= }&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;any((False, False, True, False))=True
+any((False, False, False, False)) = False
+any((True, True, True, True)) = True
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;all()&lt;/h3&gt;
+&lt;p&gt;La fonction &lt;code&gt;all&lt;/code&gt; prend en argument, elle aussi, un iterable et retourne un booléen, mais elle retourne vraie si toutes les valeurs de l'itérable sont vraies.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="nb"&gt;all&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="si"&gt;= }&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="nb"&gt;all&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;False&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="si"&gt;= }&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sa"&gt;f&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;{&lt;/span&gt;&lt;span class="nb"&gt;all&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="si"&gt;= }&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;all((False, False, True, False)) = False
+all((False, False, False, False)) = False
+all((True, True, True, True)) = True
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Les fonctions &lt;code&gt;any&lt;/code&gt; et &lt;code&gt;all&lt;/code&gt; sont très pratiques dans les tests.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Mais attention à leurs négations, &lt;code&gt;not any&lt;/code&gt; retourne vraie si toutes les valeurs de l'itérable en entrés sont fausses alors qu'on aurait pu faussement penser que ce rôle revenait à &lt;code&gt;not all&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;En python, un itérable est un objet qui sur lequel on peut itérer. C'ést à dire qu'u  élément à un élément qui le suit, excepté le dernier. Par exemple, une liste est un iterable. Mais aussi, un tuple, une string, un dictionnaire sont des itérables.
+On peut aussi générer des itérables à la volée (à la demande), on appelle ça un générateur.&lt;/p&gt;
+&lt;p&gt;Un générateur utilise le mot clé yield afin de permettre de "mettre en pause" celui-ci et retourne une valeur. Ce mécanisme garde l'état de la fonction au moment du yield et ceci jusqu'à la prochaine demande d'élement au générateur où elle reprendra à la suite du yield.&lt;/p&gt;
+&lt;p&gt;Exemple d'un générateur avec le suite de fibonacci, tiré du &lt;a href="https://zestedesavoir.com/tutoriels/954/notions-de-python-avancees/3-further/1-generators/#1-1-generator"&gt;tutoriel sur les notions avancées de python&lt;/a&gt; par @entwanne&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;fibo&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;_&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt;
+        &lt;span class="k"&gt;yield&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;
+
+&lt;span class="n"&gt;fib&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;fibo&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;fib&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&amp;lt;generator object fibo at 0x7f7a1ece56c0&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Ce qui nous est renvoyé est un objet de type &lt;code&gt;generator&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Pour demandés de générer les éléments du génrateur, le mieux est encore d'essayer de la transformer en liste.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;list&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fib&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;[1, 1, 2, 3, 5, 8, 13, 21]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;next()&lt;/h3&gt;
+&lt;p&gt;La fonction &lt;code&gt;next&lt;/code&gt; permet de générer l'élément suivant du générateur.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;fib&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;fibo&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;next&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fib&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;next&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fib&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;next&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fib&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;next&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fib&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;next&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fib&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="mf"&gt;1&lt;/span&gt;
+&lt;span class="mf"&gt;1&lt;/span&gt;
+&lt;span class="mf"&gt;2&lt;/span&gt;
+&lt;span class="mf"&gt;3&lt;/span&gt;
+&lt;span class="mf"&gt;5&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;enumerate()&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;enumerate&lt;/code&gt; est probablement la fonction que je vous présente ici que j'utilise le plus souvent. Elle permet, comme son nom l'indique, d'énumérer un itérable. C'est très pratique quand on a besoin de connaître la valeur et l'index d'un élément dans une boucle.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;13&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;14&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;value&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;enumerate&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;start&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;value&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;value&lt;/span&gt; &lt;span class="o"&gt;**&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;
+
+&lt;span class="nb"&gt;list&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;enumerate&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;start&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;[(5, 7), (6, 5), (7, 6), (8, 9), (9, 13), (10, 14), (11, 5), (12, 7)]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code&gt;enumerate&lt;/code&gt; prend aussi un argument start pour faire commencer l'énumération à partir de n'importe quel entier, de base il est à 0, ce qui permet de suivre l'index.&lt;/p&gt;
+&lt;h3&gt;isinstance()&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;isinstance&lt;/code&gt; Permet de vérifier qu'un objet est une instance d'une classe. Contrairement à &lt;code&gt;type&lt;/code&gt; qui fait la même chose, &lt;code&gt;isinstance&lt;/code&gt; permet aussi de regarder si le type est une instance indirect.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="nb"&gt;isinstance&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="nb"&gt;type&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;True
+True
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;my_int&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="k"&gt;pass&lt;/span&gt;
+
+&lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;my_int&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="nb"&gt;isinstance&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="nb"&gt;type&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;True
+False
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;map()&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;map&lt;/code&gt; permet d'appliquer une fonction à un itérable. Attention cependant cette fonction retourne un itérateur et non une liste. Il faut donc la transformer en liste avant de pouvoir l'afficher.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="nb"&gt;list&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="nb"&gt;map&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;banane&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;abricot&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;orange&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;[6, 7, 6]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;sorted()&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;sorted&lt;/code&gt; permet de trier un itérable. Il permet d'utiliser l'ordre décroissant et de donner un fonction clé. On peut ainsi ne pas trier les éléments dans l'ordre des entiers croissants mais dans l'ordre inverse par valeurs absolus de leur deuxième élément par exemple.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;liste&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Beta&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Alpha&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Gamma&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;sorted&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;liste&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;key&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="k"&gt;lambda&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;abs&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;liste&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;]),&lt;/span&gt; &lt;span class="n"&gt;reverse&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;[&amp;#39;Gamma&amp;#39;, &amp;#39;Beta&amp;#39;, &amp;#39;Alpha&amp;#39;]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;@staticmethod&lt;/h3&gt;
+&lt;p&gt;@staticmetod est un décorateur permettant de rendre une méthode statique. C'est une méthode qui permet d'être utilisé sans instance de la classe.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;Model&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+
+    &lt;span class="nd"&gt;@staticmethod&lt;/span&gt;
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;modelnames&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Mistral&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;chatGPT&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;Llama&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Model&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;modelnames&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;[&amp;#39;Mistral&amp;#39;, &amp;#39;chatGPT&amp;#39;, &amp;#39;Llama&amp;#39;]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;zip()&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;zip&lt;/code&gt; permet d'associer n à n les valeurs de n listes. C'est très utile quand on doit itérer sur deux ou plusieurs listes en même temps.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;viandes&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Poulet&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Boeuf&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Porc&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;span class="n"&gt;legumes&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Haricot&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Chou fleur&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Tomates&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;viande&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;legume&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;zip&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;viandes&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;legumes&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;legume&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;viande&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="nb"&gt;list&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;zip&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;viandes&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;legumes&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;Haricot Poulet
+Chou fleur Boeuf
+Tomates Porc
+
+
+
+
+
+[(&amp;#39;Poulet&amp;#39;, &amp;#39;Haricot&amp;#39;), (&amp;#39;Boeuf&amp;#39;, &amp;#39;Chou fleur&amp;#39;), (&amp;#39;Porc&amp;#39;, &amp;#39;Tomates&amp;#39;)]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Il faut que les listes soit de la même taille, dans le cas contraire, on pourra utiliser &lt;code&gt;zip_longest&lt;/code&gt; de module &lt;code&gt;itertools&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;itertools&lt;/h2&gt;
+&lt;p&gt;Itertools est un module qui permet de faciliter la gestion d'itérable. Ce module appartenant à poython est installé en m^me tempsque python , donc pas besoin d'installation supplémentaire. Il faut toutefois l'importer pour pouvoir l'utiliser.&lt;/p&gt;
+&lt;h3&gt;count()&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;count&lt;/code&gt; est un compteur qui ne s'arrète jamais. Il permet de créer un compteur avec un pas défini qui n'est pas forcément entier.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;itertools&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;count&lt;/span&gt;
+
+&lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;count&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mf"&gt;5.3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;step&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mf"&gt;0.6&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nb"&gt;next&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;_&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;)]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;[5.3,
+ 5.8999999999999995,
+ 6.499999999999999,
+ 7.099999999999999,
+ 7.699999999999998]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;cycle()&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;cycle&lt;/code&gt; permet de boucler sur un itérable.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;itertools&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;cycle&lt;/span&gt;
+
+&lt;span class="n"&gt;cy&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;cycle&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;RVB&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nb"&gt;next&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;cy&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;_&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;)]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;[&amp;#39;R&amp;#39;, &amp;#39;V&amp;#39;, &amp;#39;B&amp;#39;, &amp;#39;R&amp;#39;, &amp;#39;V&amp;#39;, &amp;#39;B&amp;#39;, &amp;#39;R&amp;#39;, &amp;#39;V&amp;#39;, &amp;#39;B&amp;#39;, &amp;#39;R&amp;#39;]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;pairwise()&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;pairwise&lt;/code&gt; permet de lier deux par deux les éléments d'un itérable. &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;itertools&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;pairwise&lt;/span&gt;
+
+&lt;span class="n"&gt;values&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;14&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;y&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;pairwise&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;values&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;-4
+5
+-2
+8
+-8
+3
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;filterfalse()&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;filterfalse&lt;/code&gt; permet de ne renvoyer que les valeurs fausses d'une fonction.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;est_bissextile&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;annee&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;annee&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;annee&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="mi"&gt;100&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="ow"&gt;or&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;annee&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="mi"&gt;400&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;itertools&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;filterfalse&lt;/span&gt;
+
+&lt;span class="n"&gt;fi&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;filterfalse&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;est_bissextile&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1900&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2030&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+
+&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nb"&gt;next&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fi&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;)]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;[1900, 1901, 1902, 1903, 1905, 1906, 1907, 1909, 1910, 1911]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;product()&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;product&lt;/code&gt; fait le produit cartésien d'itérable. Ainsi il associe chaque élément à chaque combinaison des autres éléments.&lt;/p&gt;
+&lt;p&gt;Il peut prendre plusieurs itérables en entrées et peut permettre de les utiliser plusieurs fois avec l'argument &lt;code&gt;repeat&lt;/code&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;itertools&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;product&lt;/span&gt;
+
+&lt;span class="n"&gt;prod&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;product&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;ABC&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;xyz&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;prod&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+
+&lt;span class="n"&gt;pr&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;product&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;01&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;repeat&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;pr&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="k"&gt;[(&amp;#39;A&amp;#39;, &amp;#39;x&amp;#39;), (&amp;#39;A&amp;#39;, &amp;#39;y&amp;#39;), (&amp;#39;A&amp;#39;, &amp;#39;z&amp;#39;), (&amp;#39;B&amp;#39;, &amp;#39;x&amp;#39;), (&amp;#39;B&amp;#39;, &amp;#39;y&amp;#39;), (&amp;#39;B&amp;#39;, &amp;#39;z&amp;#39;), (&amp;#39;C&amp;#39;, &amp;#39;x&amp;#39;), (&amp;#39;C&amp;#39;, &amp;#39;y&amp;#39;), (&amp;#39;C&amp;#39;, &amp;#39;z&amp;#39;)]&lt;/span&gt;
+
+&lt;span class="na"&gt;[(&amp;#39;0&amp;#39;, &amp;#39;0&amp;#39;, &amp;#39;0&amp;#39;),&lt;/span&gt;
+&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="na"&gt;(&amp;#39;0&amp;#39;, &amp;#39;0&amp;#39;, &amp;#39;1&amp;#39;),&lt;/span&gt;
+&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="na"&gt;(&amp;#39;0&amp;#39;, &amp;#39;1&amp;#39;, &amp;#39;0&amp;#39;),&lt;/span&gt;
+&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="na"&gt;(&amp;#39;0&amp;#39;, &amp;#39;1&amp;#39;, &amp;#39;1&amp;#39;),&lt;/span&gt;
+&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="na"&gt;(&amp;#39;1&amp;#39;, &amp;#39;0&amp;#39;, &amp;#39;0&amp;#39;),&lt;/span&gt;
+&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="na"&gt;(&amp;#39;1&amp;#39;, &amp;#39;0&amp;#39;, &amp;#39;1&amp;#39;),&lt;/span&gt;
+&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="na"&gt;(&amp;#39;1&amp;#39;, &amp;#39;1&amp;#39;, &amp;#39;0&amp;#39;),&lt;/span&gt;
+&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="na"&gt;(&amp;#39;1&amp;#39;, &amp;#39;1&amp;#39;, &amp;#39;1&amp;#39;)]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;permutation()&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;permutation&lt;/code&gt; permet de générer les permutations d'un itérable, on peut spécifier la longueur de la permutation avec l'argument &lt;code&gt;r&lt;/code&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;itertools&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;permutations&lt;/span&gt;
+
+&lt;span class="n"&gt;lettres&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;GARE&amp;quot;&lt;/span&gt;
+&lt;span class="n"&gt;pe&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;permutations&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;lettres&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;pe&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;[(&amp;#39;G&amp;#39;, &amp;#39;A&amp;#39;, &amp;#39;R&amp;#39;, &amp;#39;E&amp;#39;),
+ (&amp;#39;G&amp;#39;, &amp;#39;A&amp;#39;, &amp;#39;E&amp;#39;, &amp;#39;R&amp;#39;),
+ (&amp;#39;G&amp;#39;, &amp;#39;R&amp;#39;, &amp;#39;A&amp;#39;, &amp;#39;E&amp;#39;),
+ (&amp;#39;G&amp;#39;, &amp;#39;R&amp;#39;, &amp;#39;E&amp;#39;, &amp;#39;A&amp;#39;),
+ (&amp;#39;G&amp;#39;, &amp;#39;E&amp;#39;, &amp;#39;A&amp;#39;, &amp;#39;R&amp;#39;),
+ (&amp;#39;G&amp;#39;, &amp;#39;E&amp;#39;, &amp;#39;R&amp;#39;, &amp;#39;A&amp;#39;),
+ (&amp;#39;A&amp;#39;, &amp;#39;G&amp;#39;, &amp;#39;R&amp;#39;, &amp;#39;E&amp;#39;),
+ (&amp;#39;A&amp;#39;, &amp;#39;G&amp;#39;, &amp;#39;E&amp;#39;, &amp;#39;R&amp;#39;),
+ (&amp;#39;A&amp;#39;, &amp;#39;R&amp;#39;, &amp;#39;G&amp;#39;, &amp;#39;E&amp;#39;),
+ (&amp;#39;A&amp;#39;, &amp;#39;R&amp;#39;, &amp;#39;E&amp;#39;, &amp;#39;G&amp;#39;),
+ (&amp;#39;A&amp;#39;, &amp;#39;E&amp;#39;, &amp;#39;G&amp;#39;, &amp;#39;R&amp;#39;),
+ (&amp;#39;A&amp;#39;, &amp;#39;E&amp;#39;, &amp;#39;R&amp;#39;, &amp;#39;G&amp;#39;),
+ (&amp;#39;R&amp;#39;, &amp;#39;G&amp;#39;, &amp;#39;A&amp;#39;, &amp;#39;E&amp;#39;),
+ (&amp;#39;R&amp;#39;, &amp;#39;G&amp;#39;, &amp;#39;E&amp;#39;, &amp;#39;A&amp;#39;),
+ (&amp;#39;R&amp;#39;, &amp;#39;A&amp;#39;, &amp;#39;G&amp;#39;, &amp;#39;E&amp;#39;),
+ (&amp;#39;R&amp;#39;, &amp;#39;A&amp;#39;, &amp;#39;E&amp;#39;, &amp;#39;G&amp;#39;),
+ (&amp;#39;R&amp;#39;, &amp;#39;E&amp;#39;, &amp;#39;G&amp;#39;, &amp;#39;A&amp;#39;),
+ (&amp;#39;R&amp;#39;, &amp;#39;E&amp;#39;, &amp;#39;A&amp;#39;, &amp;#39;G&amp;#39;),
+ (&amp;#39;E&amp;#39;, &amp;#39;G&amp;#39;, &amp;#39;A&amp;#39;, &amp;#39;R&amp;#39;),
+ (&amp;#39;E&amp;#39;, &amp;#39;G&amp;#39;, &amp;#39;R&amp;#39;, &amp;#39;A&amp;#39;),
+ (&amp;#39;E&amp;#39;, &amp;#39;A&amp;#39;, &amp;#39;G&amp;#39;, &amp;#39;R&amp;#39;),
+ (&amp;#39;E&amp;#39;, &amp;#39;A&amp;#39;, &amp;#39;R&amp;#39;, &amp;#39;G&amp;#39;),
+ (&amp;#39;E&amp;#39;, &amp;#39;R&amp;#39;, &amp;#39;G&amp;#39;, &amp;#39;A&amp;#39;),
+ (&amp;#39;E&amp;#39;, &amp;#39;R&amp;#39;, &amp;#39;A&amp;#39;, &amp;#39;G&amp;#39;)]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;combinations()&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;combinations&lt;/code&gt; est comme permutation sans l'importance de l'ordre, c'est-à-dire que 'BA' est une solution identique à 'AB'&lt;/p&gt;
+&lt;p&gt;Et voilà ! J’espère que cette rétrospective des fonctionnalités que j’utilise le plus souvent pourra vous être utile pour améliorer votre python.&lt;/p&gt;</content><category term="Review"/><category term="python"/><category term="Zeste de Savoir"/></entry></feed>
