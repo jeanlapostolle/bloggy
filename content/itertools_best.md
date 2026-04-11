@@ -2,7 +2,7 @@ Title: Présentation de certaines fonctions built-in et itertools
 Date: 2024-01-23 19:28
 Category: Review
 Summary: Je vous présente les éléments que j'utilise les plus régulièrement quand je développe en python.
-tags:python, Zeste de Savoir
+Tags:python, Zeste de Savoir
 
 Dans ce billet, nous verrons :
 

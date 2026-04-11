@@ -2,7 +2,7 @@ Title: Feux de forêts
 Date: 2025-08-08 17:20
 Category: Study
 Summary: Les incendies en forêt sont un phénomène naturel mais sont également impactés par le réchauffement climatique. J'ai analysé les données des feux de forêts depuis 2006 pour comprendre l'impact du réchauffement climatique sur ces événements.
-tags:feu, python, actualite
+Tags:feu, python, actualite
 
 Le premier ministre François Bayrou annonce : « L&#39;évènement aujourd&#39;hui, c&#39;est un évènement qui est lié au réchauffement climatique et lié à la sécheresse », en parlant du feu de forêt qui a eu lieu dans l&#39;Aude ce 6 août 2025.
 
