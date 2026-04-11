@@ -7,24 +7,27 @@
         <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/code-monokai.css" type="text/css">
         <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/style.css" type="text/css">
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
     </head>
     <body>
 
         <main class="main">
-        <aside class="sidebar">
-            <a href="{{ SITEURL }}/"><img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/media/melcore-logo_symbole_light.svg" alt="Logo comme un épluchure d'agrume en forme de M"></a>
-            <section class="presentation"><p>Salut, moi c'est <b>Melcore</b>, je suis dev, humoriste et créatif.<br>
-            Parfois, j'ai du temps pour faire des trucs alors je voulais juste le raconter quelque part, sur mon petit bout d'internet.</p><br>
-            </section>
-            <section class="social">
-                <a href="https://instagram.com/melcore_hat" target="_blank" rel="noopener noreferrer"><img src="https://cdn.simpleicons.org/instagram" class="icon" alt="Instagram" width="24" height="24">Instagram</a>
-                <a href="https://tiktok.com/@melcore" target="_blank" rel="noopener noreferrer"><img src="https://cdn.simpleicons.org/tiktok" class="icon" alt="Tiktok" width="24" height="24">Tiktok</a>
-                <a href="https://github.com/jeanlapostolle" target="_blank" rel="noopener noreferrer"><img src="https://cdn.simpleicons.org/github" class="icon" alt="GitHub" width="24" height="24">Github</a>
-            </section>
-        </aside>
+            <aside class="sidebar">
+                <a id="logo" href="{{ SITEURL }}/"><img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/media/melcore-logo_symbole_light.svg" alt="Logo comme un épluchure d'agrume en forme de M"></a>
+                <section class="presentation"><p>Salut, moi c'est <b>Melcore</b>, je suis dev, humoriste et créatif.<br>
+                Parfois, j'ai du temps pour faire des trucs alors je voulais juste le raconter quelque part, sur mon petit bout d'internet.</p><br>
+                </section>
+                <section class="social">
+                    <a href="https://instagram.com/melcore_hat" target="_blank" rel="noopener noreferrer"><img src="https://cdn.simpleicons.org/instagram" class="icon" alt="Instagram" width="24" height="24">Instagram</a>
+                    <a href="https://tiktok.com/@melcore" target="_blank" rel="noopener noreferrer"><img src="https://cdn.simpleicons.org/tiktok" class="icon" alt="Tiktok" width="24" height="24">Tiktok</a>
+                    <a href="https://github.com/jeanlapostolle" target="_blank" rel="noopener noreferrer"><img src="https://cdn.simpleicons.org/github" class="icon" alt="GitHub" width="24" height="24">Github</a>
+                </section>
+            </aside>
+            <div class="content">
         {% block content %}{% endblock %}
+            </div>
         </main>
     </body>
 </html>

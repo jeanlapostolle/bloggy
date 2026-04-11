@@ -27,51 +27,80 @@ html{
     h2{
         font-size: 1.5em;
     }
+    body {
+      margin: 0;
+    }
 
 }
 
 code {
     font-family: 'Fira Code', monospace;
 }
-.sidebar{
-    height: 100vh;
-    width: 20%;
-    background: var(--purple-semi-dark);
-    position: fixed;
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: var(--purple-semi-dark);
+  position: fixed;
+  height: 100%;
+  overflow: auto;
     color: var(--grey-light);
-    padding-left: 2rem;
-    padding-right: 2rem;
-    b{
+}
+
+.sidebar a {
+  display: block;
+  color: var(--grey-light);
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  background-color: var(--green-semi-dark);
+  color: var(--grey-light);
+}
+
+
+
+div.content {
+  margin-left: 25%;
+  padding: 1px 16px;
+  height: 100%;
+}
+
+
+
+
+.sidebar b{
         color: var(--green-semi-light);
     }
-    section{
+.sidebar section{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .icon{
+.sidebar .icon{
         color: var(--grey-light);
         filter: brightness(0) invert(1);
     }
-    .presentation{
+.sidebar .presentation{
         text-align: center;
     }
 
-    br{
+.sidebar br{
         display:block; margin-top:10px; line-height:22px;
     }
-    a{
+.sidebar a{
         color: var(--grey-light);
         text-decoration: none;
     }
-    a:hover{
+.sidebar a:hover{
         color: var(--green-semi-light);
         text-decoration: underline;
     }
-    a:visited{
+.sidebar a:visited{
         color: var(--grey-light);
     }
-    .social{
+.sidebar .social{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -86,39 +115,25 @@ code {
         }
     }
 
-}
 
-.articles {
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
     position: relative;
-    width: 75%;
-    float: right;
-    height: 100vh;
-    margin: 0;
+  }
+  .sidebar .social {flex-direction: row;}
+  div.content {margin-left: 0;}
 
-}
-
-.article{
+  #logo{
     display: flex;
-    flex-direction: column;
-    align-items: start;
-}
-
-#content{
-    position: relative;
-    width: 75%;
-    float: right;
-    height: 100vh;
-    margin: 0;
-}
-
-.main-article{
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    .entry-content{
-        display: flex;
-      flex-direction: column;
-      justify-content: center;
-      width: 50vw;
-    }
+    flex-direction: column;
+  }
+ #logo img {
+     width: 30%;
+     flex-direction: row;
+     align-items: center;
+     display: flex;
+ }
 }
